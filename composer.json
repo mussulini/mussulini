@@ -1,0 +1,11 @@
+{
+    "name": "mussulini/mussulini",
+    "description": "My personal website and code playground.",
+    "authors": [
+        {
+            "name": "Mussulini Lopez",
+            "email": "mussulini.l@gmail.com"
+        }
+    ],
+    "require": {}
+}
