@@ -3,12 +3,11 @@ import App from './App.vue'
 import router from './router'
 import VueParticles from 'vue-particles'
 
-import './registerServiceWorker'
 import "./assets/scss/app.scss";
-
-Vue.config.productionTip = false
+import './registerServiceWorker'
 
 Vue.use(VueParticles)
+Vue.config.productionTip = false
 
 new Vue({
   router,
