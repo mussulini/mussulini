@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img class="logo" alt="Mussulini Lopez" src="../assets/img/mussulini.lopez.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div class="home container">
+
+    <p class="lead">Hello, my name is Mussulini Lopez.</p>
+
+    <p>I am a Filipino designer with an extensive knowledge in user interface design <br>
+    who focuses on user experience to create a meaningful product design.</p>
+
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="" class="font-icon icon-briefcase"></a></li>
+        <li class="list-inline-item"><a href="" class="font-icon icon-behance"></a></li>
+        <li class="list-inline-item"><a href="" class="font-icon icon-codepen"></a></li>
+        <li class="list-inline-item"><a href="" class="font-icon icon-linkedin-square"></a></li>
+    </ul>
+
   </div>
+
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
-</script>

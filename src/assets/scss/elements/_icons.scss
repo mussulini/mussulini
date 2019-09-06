@@ -1,0 +1,70 @@
+//
+// Icons
+// -------------------------------
+
+@font-face {
+    font-family: '#{$icon-font-name}';
+    src: url('#{$icon-font-path}/#{$icon-font-name}.eot');                                    // IE9 Compat Modes
+    src: url('#{$icon-font-path}/#{$icon-font-name}.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$icon-font-path}/#{$icon-font-name}.woff')       format('woff'),              // Modern Browsers
+         url('#{$icon-font-path}/#{$icon-font-name}.ttf')        format('truetype'),          // Safari, Android, iOS
+         url('#{$icon-font-path}/#{$icon-font-name}.svg##{$icon-font-name}') format('svg');    // Legacy iOS
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font-icon,
+[font-icon]:before {
+    display: inline-block;
+    font-family: $icon-font-name !important;
+    speak: none;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+
+    // Better Font Rendering ===========
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[font-icon]:before {
+    content: attr(font-icon);
+}
+// Usage: font-icon="(HTML Entity)"
+//    Ex: <span font-icon="&#xe004"></span>
+
+.icon-home:before            {content:"\f015"}
+.icon-envelope-o:before      {content:"\f003"}
+.icon-heart-o:before         {content:"\f08a"}
+.icon-heart:before           {content:"\f004"}
+.icon-map-marker:before      {content:"\f041"}
+.icon-briefcase:before       {content:"\f0b1"}
+.icon-desktop:before         {content:"\f108"}
+.icon-laptop:before          {content:"\f109"}
+.icon-tablet:before          {content:"\f10a"}
+.icon-mobile:before          {content:"\f10b"}
+.icon-mobile-phone:before    {content:"\f10b"}
+.icon-quote-left:before      {content:"\f10d"}
+.icon-quote-right:before     {content:"\f10e"}
+.icon-code:before            {content:"\f121"}
+.icon-bug:before             {content:"\f188"}
+.icon-html5:before           {content:"\f13b"}
+.icon-css3:before            {content:"\f13c"}
+.icon-sass:before            {content:"\e901"}
+.icon-vue:before             {content:"\e902"}
+.icon-wordpress:before       {content:"\f19a"}
+.icon-bootstrap:before       {content:"\e900"}
+.icon-apple:before           {content:"\f179"}
+.icon-android:before         {content:"\f17b"}
+.icon-github:before          {content:"\f09b"}
+.icon-linux:before           {content:"\f17c"}
+.icon-facebook:before        {content:"\e903"}
+.icon-twitter:before         {content:"\f099"}
+.icon-skype:before           {content:"\f17e"}
+.icon-linkedin-square:before {content:"\f08c"}
+.icon-dribbble:before        {content:"\f17d"}
+.icon-behance:before         {content:"\f1b4"}
+.icon-codepen:before         {content:"\f1cb"}
