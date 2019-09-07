@@ -1,0 +1,30 @@
+.mastfoot {
+    
+    .tech {
+        margin-bottom: 0;
+        font-size: $font-size-base * 1.125; // 18px
+
+        .list-inline-item:not(:last-child) {
+            margin-right: $spacer * 1.5;
+
+        }
+
+        a { color: $text-muted !important;
+
+            @include hover-focus {
+                color: inherit !important;
+            }
+        }
+
+        a { opacity: .6;
+            filter: grayscale(100%);
+            transition: $transition-base;
+
+            @include hover-focus {
+                opacity: 1;
+                filter: grayscale(0);
+            }
+        }
+    }
+
+}

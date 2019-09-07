@@ -1,0 +1,30 @@
+.home {
+
+    .lead {
+        font-size: $h4-font-size; // 24px
+        font-weight: $font-weight-normal;
+    }
+
+    > p:not(.lead) {
+        max-width: 40.625rem;
+        font-size: $font-size-base * 1.125; // 18px
+        margin-bottom: $grid-gutter-width;
+    }
+
+    .social {
+        font-size: $h4-font-size; // 24px
+        margin-bottom: 5rem;
+
+        .list-inline-item:not(:last-child) {
+            margin-right: $grid-gutter-width;
+        }
+
+        a { filter: grayscale(100%);
+            transition: $transition-base;
+
+            @include hover-focus {
+                filter: grayscale(0);
+            }
+        }
+    }
+}

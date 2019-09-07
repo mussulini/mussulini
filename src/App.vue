@@ -1,28 +1,36 @@
 <template>
 
-    <div id="app">
+  <div id="app">
 
-        <header class="container mb-5" id="nav">
-            <img class="logo" alt="Mussulini Lopez" src="./assets/img/mussulini.lopez.png">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
-        </header>
+    <header class="masthead container">
+      <div class="masthead-brand">
+        <img class="logo" alt="Mussulini Lopez" src="./assets/img/mussulini.lopez.png">
+      </div>
+      <!-- <nav class="nav nav-masthead">
+        <router-link class="nav-link" to="/">Home</router-link> 
+        <router-link class="nav-link" to="/about">About</router-link>
+      </nav> -->
+    </header>
 
-        <router-view />
+    <main role="main" class="main">
+      <router-view />
+    </main>
 
-        <footer class="container text-muted small">
-            &copy; Mussulini Lopez 2019
+    <footer class="mastfoot container">
+      <div class="colophon">
+        &copy; Mussulini Lopez 2019
+      </div>
 
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="" class="font-icon icon-html5"></a></li>
-                <li class="list-inline-item"><a href="" class="font-icon icon-sass"></a></li>
-                <li class="list-inline-item"><a href="" class="font-icon icon-bootstrap"></a></li>
-                <li class="list-inline-item"><a href="" class="font-icon icon-vue"></a></li>
-            </ul>
-        </footer>
+      <ul class="tech list-inline">
+        <li class="list-inline-item"><b-link href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><span class="font-icon icon-html5 html5"></span></b-link></li>
+        <li class="list-inline-item"><b-link href="https://sass-lang.com/" target="_blank"><span class="font-icon icon-sass sass"></span></b-link></li>
+        <li class="list-inline-item"><b-link href="https://getbootstrap.com/" target="_blank"><span class="font-icon icon-bootstrap bootstrap"></span></b-link></li>
+        <li class="list-inline-item"><b-link href="https://vuejs.org/" target="_blank"><span class="font-icon icon-vue vue"></span></b-link></li>
+      </ul>
+    </footer>
 
-        <vue-particles></vue-particles>
+    <vue-particles :particleSize="3" :lineOpacity="0.2"></vue-particles>
 
-    </div>
+  </div>
 
 </template>
