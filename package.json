@@ -1,5 +1,7 @@
 {
   "name": "muzo",
+  "author": "Mussulini Lopez",
+  "Description": "My personal website and code playground.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

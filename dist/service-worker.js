@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.833c1a1a641ea6ff25c77c936d5dc74c.js"
+  "/precache-manifest.0d39a7b49f72b78f0588a9af117b14dc.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "muzo"});
