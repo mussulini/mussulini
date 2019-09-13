@@ -3,6 +3,7 @@
     .lead {
         font-size: $h4-font-size; // 24px
         font-weight: $font-weight-normal;
+        color: $primary;
     }
 
     > p:not(.lead) {
