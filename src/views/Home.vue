@@ -2,7 +2,7 @@
 
   <div class="home container">
 
-    <p class="lead">Hello, my name is Mussulini Lopez.</p>
+    <p class="lead">Hello, my name is <strong>Mussulini Lopez</strong>.</p>
 
     <p>I am a Filipino designer with an extensive knowledge in user interface design 
     who focuses on user experience to create a meaningful product design.</p>
