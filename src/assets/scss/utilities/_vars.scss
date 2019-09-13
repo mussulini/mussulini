@@ -2,7 +2,7 @@
 // color system
 
 $white:    #fff;
-$gray-100: #f8f9fa;
+$gray-100: #fefefe; // base
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
 $gray-400: #ced4da;
@@ -89,6 +89,8 @@ $theme-colors: map-merge(
   ),
   $theme-colors
 );
+
+$body-bg: $gray-100;
 
 $link-hover-decoration: none;
 
