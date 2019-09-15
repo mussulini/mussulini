@@ -1,4 +1,8 @@
 .mastfoot {
+
+    .colophon {
+        filter: grayscale(100%);
+    }
     
     .tech {
         margin-bottom: 0;
@@ -6,14 +10,6 @@
 
         .list-inline-item:not(:last-child) {
             margin-right: $spacer * 1.5;
-
-        }
-
-        a { color: $text-muted !important;
-
-            @include hover-focus {
-                color: inherit !important;
-            }
         }
 
         a { opacity: .6;

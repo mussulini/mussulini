@@ -4,6 +4,9 @@
         font-size: $h4-font-size; // 24px
         font-weight: $font-weight-normal;
         color: $primary;
+        @include media-breakpoint-up(sm) {
+            br {display:none}
+        }
     }
 
     > p:not(.lead) {
@@ -14,7 +17,9 @@
 
     .social {
         font-size: $h4-font-size; // 24px
-        margin-bottom: 5rem;
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 5rem;
+        }
 
         .list-inline-item:not(:last-child) {
             margin-right: $grid-gutter-width;
