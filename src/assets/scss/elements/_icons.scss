@@ -4,6 +4,7 @@
 
 @font-face {
     font-family: '#{$icon-font-name}';
+    font-display: auto;
     src: url('#{$icon-font-path}/#{$icon-font-name}.eot');                                    // IE9 Compat Modes
     src: url('#{$icon-font-path}/#{$icon-font-name}.eot?#iefix') format('embedded-opentype'), // IE6-IE8
          url('#{$icon-font-path}/#{$icon-font-name}.woff')       format('woff'),              // Modern Browsers

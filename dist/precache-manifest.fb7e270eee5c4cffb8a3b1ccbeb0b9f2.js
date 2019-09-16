@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "d35ee1d3a20303ee462256ae7095c20f",
-    "url": "/fonts/muzo.d35ee1d3.eot"
+    "revision": "74882b51bfd14995ea1845de244763f3",
+    "url": "/fonts/muzo.74882b51.ttf"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.615a612b.js"
   },
   {
-    "revision": "b5b351df6df482b5740a",
+    "revision": "7ccdbb3c260797da49ac",
     "url": "/js/app.910a7902.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/js/about.c4bedb8a.js"
   },
   {
-    "revision": "c2caef921216aa148d1696eb00038d2f",
+    "revision": "17292a66b763a1954aaf163729defcda",
     "url": "/index.html"
   },
   {
@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/img/mussulini.lopez.8e0391b5.png"
   },
   {
-    "revision": "74882b51bfd14995ea1845de244763f3",
-    "url": "/fonts/muzo.74882b51.ttf"
+    "revision": "d35ee1d3a20303ee462256ae7095c20f",
+    "url": "/fonts/muzo.d35ee1d3.eot"
   },
   {
     "revision": "2faca26ad379e228b58550f6ee53500b",
     "url": "/fonts/muzo.2faca26a.woff"
   },
   {
-    "revision": "b5b351df6df482b5740a",
-    "url": "/css/app.4dc8b592.css"
+    "revision": "7ccdbb3c260797da49ac",
+    "url": "/css/app.647327c9.css"
   }
 ];
