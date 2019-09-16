@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "74882b51bfd14995ea1845de244763f3",
-    "url": "/fonts/muzo.74882b51.ttf"
+    "revision": "d35ee1d3a20303ee462256ae7095c20f",
+    "url": "/fonts/muzo.d35ee1d3.eot"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/js/about.c4bedb8a.js"
   },
   {
-    "revision": "17292a66b763a1954aaf163729defcda",
+    "revision": "1a2c751e3dec0ddac9d364e99a9b5f08",
     "url": "/index.html"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/img/mussulini.lopez.8e0391b5.png"
   },
   {
-    "revision": "d35ee1d3a20303ee462256ae7095c20f",
-    "url": "/fonts/muzo.d35ee1d3.eot"
+    "revision": "74882b51bfd14995ea1845de244763f3",
+    "url": "/fonts/muzo.74882b51.ttf"
   },
   {
     "revision": "2faca26ad379e228b58550f6ee53500b",
